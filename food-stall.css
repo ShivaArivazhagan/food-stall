@@ -58,10 +58,21 @@ h1{
 .row .first ol li{
     list-style: none;
     font-size: 30px;
+    position: relative;
     color: rgb(234, 242, 247);
+   
 }
 .row .first ol li:hover{
     color: rgb(150, 210, 247);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
+
+@keyframes example {
+    0%   {color: rgb(150, 210, 247); left:0px; top:0px;}
+    25%  {color:yellow; left:10px; top:0px;}
+    50%  {color:  rgb(150, 210, 247); right: 10px; top: 0px;}
 }
 .row .first img{
     height: 100%;
