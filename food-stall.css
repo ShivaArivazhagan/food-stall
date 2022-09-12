@@ -4,10 +4,37 @@ body{
     padding: 0;
 }
 
+.main{
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    width: auto;
+    height: auto;
+}
+
 input{
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
     margin-left: 489px;
+    color: rgb(30, 33, 32);
+    background-color: rgb(184, 225, 191);
+    border-radius: 20px;
+    border:none;
+    width: auto;
+    height: 50px;
+    border-radius: 50px;
+
 }
+input:hover{
+    color: aqua;
+    background-color: black;
+    width: auto;
+    height: 50px;
+    border-radius: 50px;
+}
+
 
 h1{
     text-align: center;
@@ -25,11 +52,16 @@ h1{
 }
 .row .first ol{
     font-size:35px ;
+    color: rgb(173, 231, 231);
 }
 
 .row .first ol li{
     list-style: none;
     font-size: 30px;
+    color: rgb(234, 242, 247);
+}
+.row .first ol li:hover{
+    color: rgb(150, 210, 247);
 }
 .row .first img{
     height: 100%;
